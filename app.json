@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "scaleUp",
-    "slug": "scaleUp",
+    "slug": "scaleup",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,16 +15,28 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jusi.scaleup"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.jusi.scaleup"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c690cc33-6980-4b1b-a4bd-d63aa3606dc5"
+      }
+    },
+    "owner": "jusi",
+    "runtimeVersion": "1.0.0",
+    "updates": {
+      "url": "https://u.expo.dev/c690cc33-6980-4b1b-a4bd-d63aa3606dc5"
     }
   }
 }
